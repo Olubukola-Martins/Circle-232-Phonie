@@ -4,13 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name of chosen challenge</title>
+    <title>Phonie - Circle 232 </title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <h2>make some magic here!!</h2>
+    <h2>Circle 232 </h2>
+    <h2>Welcome to the billonaires club !</h2>
+    <main class="container">
+        <form class="form">
+            <div class="form_group">
+                <label for="First_name" class="form_group-label">First name</label>
+                <input type="text" name="First_name" class="First_name" id="First_name" placeholder="First Name" required/>
+            </div>
+            <div class="form_group">
+                <label for="Last_name" class="form_group-label">Last name</label>
+                <input type="text" name="Last_name" class="Last_name" id="Last_name" placeholder="Last Name" required/>
+            </div>
+            <div class="form_group">
+                <label for="email" class="form_group-label">Email address</label>
+                <input type="email" name="email" class="email" id="email" placeholder="Enter Email" required/>
+            </div>
+            <div class="form_group">
+                <label for="phone_number" class="form_group-label">Phone Number</label>
+                <input type="tel" name="phone" class="phone" id="phone" placeholder="Enter Phone Number" required/>
+            </div>
+            <div class="form_group">
+                <label for="Gender" class="form_group-label">Gender</label>
+                <select name="Gender" placeholder="Select Gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="Binary">Binary</option>
+                </select>
+            </div>
+            <input class="form_group" id="submit-button" type="submit"/> 
+            
+        </form>
+    </main>
+
+
+
+  
 
     <!-- // ============= EEND DO NOT EDIT ============== // -->
     <script src="index.mjs" type="module"></script>
