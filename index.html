@@ -28,10 +28,18 @@
         <label for="email" class="form_group-label">Email address</label>
         <input type="email" name="email" class="email" id="email" placeholder="Enter Email" required />
       </div>
-      <div class="form_group">
-        <label for="phone_number" class="form_group-label">Phone Number</label>
-        <input type="tel" name="phone" class="phone" id="phone" placeholder="Enter Phone Number" required />
+      
+      <div class="form_group" id="phone-group">
+        
+         <label for="phone_number" class="form_group-label">Phone Number</label>      
+          <input type="tel" name="phone" class="phone" id="phone" placeholder="Enter Phone Number" required />
+         <div> <img src="./airtel logo.png" alt="airtel" class="airtelLogo" id="imgid"> </div>
+        <div> <img src="./mtn logo.png" alt="mtn" class="mtnLogo" id="imgid" > </div>
+        <div> <img src="./glo logo.png" alt="glo" class="gloLogo" id="imgid"> </div>
+        <div> <img src="./etisalat logo.png" alt="etisalat" class="etisalatLogo" id="imgid"> </div> 
+        
       </div>
+      
       <div class="form_group">
         <label for="Gender" class="form_group-label">Gender</label>
         <select name="Gender" placeholder="Select Gender" required>
@@ -40,7 +48,7 @@
           <option value="Binary">Binary</option>
         </select>
       </div>
-      <button type="submit">Submit</button>
+      <button type="submit" id="myBtn">Submit</button>
 
     </form>
   </main>
